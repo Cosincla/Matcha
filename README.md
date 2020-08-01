@@ -1,7 +1,5 @@
 # Matcha
 
-# Camagru
-
 Matcha is a project I worked on during my time at WeThinkCode. The project entailed developing a dating website that can take a user's Romantic/Sexual preferences, Interests, and their location to pair users together based on that information. Users are able to like each other, if two users like each other then they would be able to chat with one another. If they annoy each other then they can be blocked.
 
 ## Requirements
