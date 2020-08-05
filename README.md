@@ -15,7 +15,25 @@ Matcha is a project I worked on during my time at WeThinkCode. The project entai
 
 ## Usage/Tests
 
-1.
+1. Navigate to http://localhost/Camagru/index.php
+2. Under New User, click on the link and sign up (Use local-user@localhost.com as your email).
+3. After a few minutes, you should receive an email in thunderbird, use the verification code on the verification page (If you dont feel like waiting look it up in phpmyadmin cosincla_camagru -> verification under unlock).
+4. Sign in with your account details.
+5. Click on Settings and choose the Edit Profile Photo option. Choose a file, upload then save it.
+6. Click on Settings and choose the My Profile option. There you must edit your biography, add a cover photo and add between 1 and 5 photos of yourself. This is required to use the matching feature.
+7. Click on Settings and choose the Interests option. There you must choose four things that you are interested in. This is required to use the matching feature.
+8. Open Matcha again in an incognito window, make another profile under local-owner@localhost.com and repeat steps 3 to 7. (make sure the interests are simular if not the same)
+9. Each profile should show up in the other's users page, click view profile then click like.
+10. Click on Settings and choose the chat settings option. Click on the send user a message option.
+11. Do the same on the other profile.
+12. Click on the field at the bottom of the box then type a message. The other user should have a message.
+13. On the Users page, view the profile and click block. They should now be removed from the Users page.
+14. Click on Settings and choose the Block options button. You can choose to unblock the profile and return them to the Users page.
+15. If there are multiple profiles, you can choose to filter them with the Filter options in the settings. There, you can choose the age, fame, distance and minimum number of shared interests, then order them by which of those fouur is the most important.
+
+If all that was successful, then all the important stuff works.
+
+(Note: Location settings no longer works as I refuse to pay for a subscription that I will only use once. If you have an active key for the google maps api, you can put it into loc.php line 12 in '&key=...') 
 
 ## Database Structure
 (Note: for all tinyints, 1 is true and 0 is false)
