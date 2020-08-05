@@ -1,0 +1,134 @@
+body {
+    background-image: url("https://i.imgur.com/ZQB5Npm.jpg");
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 90%;
+    font-size: 2vw;
+    height: 5vw;
+    margin-left: 5%;
+    background-color: #E6EDEF;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.left {
+    width: 45vw;
+    font-size: 1.5vw;
+    height: 70vw;
+    min-height: 45%;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: #E6EDEF;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.view {
+    width: 42.5vw;
+    height: 30vw;
+    font-size: 1.5vw;
+    margin-left: 2%;
+    left: 0;
+    margin-top: 3%;
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.rview {
+    font-size: 1.5vw;
+    height: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+    padding: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: auto;
+}
+
+.right {
+    font-size: 1.5vw;
+    height: 80%;
+    min-height: 70%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    background-color: #E6EDEF;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.image {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 6%;
+    border-radius: 15px;
+    height: 80px;
+    width: 55%;
+    background-color: #E6EDEF;
+    padding: 1px;
+    font-size: 1vw;
+}
+
+.profile {
+    position: absolute;
+    margin-top: -6.4%;
+    width: 5vw;
+    height: 5vw;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+.space {
+    margin-top: 4%;
+    position: absolute;
+    font-size: 1vw;
+    width: 6vw;
+    height: 3vw;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.select {
+    position: absolute;
+    margin-top: 100%;
+    margin-left: -50%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.back {
+    position: fixed;
+    min-width: 6vw;
+    min-height: 3vw;
+    margin-left: 3%;
+    bottom: 50%;
+    background-color: #E6EDEF;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.pagination {
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 90%;
+    width: 3vw;
+    height: 10vw;
+    font-size: 1vw;
+    height : 5vw;
+    border-radius: 15px;
+    background-color: #E6EDEF;
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:60px;
+    text-align: right;
+}

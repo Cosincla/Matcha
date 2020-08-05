@@ -1,0 +1,33 @@
+.box {
+    position: fixed;
+    max-width: 20vw;
+    min-width: 20vw;
+    min-height: 5vw;
+    margin-left: 55%;
+    margin-top: 1%;
+    background-color: #E6EDEF;
+    border-radius: 15px;
+    padding: 5px;
+    overflow-y: scroll;
+}
+body {
+	background-image: url("https://i.imgur.com/ZQB5Npm.jpg");
+    background-repeat: no-repeat;
+}
+.footer {
+    position: fixed;
+    height: 7%;
+    width: 97%;
+    overflow: hidden;
+    bottom: 0;
+}
+.back {
+    position: fixed;
+    min-width: 6vw;
+    min-height: 3vw;
+    margin-left: 3%;
+    margin-top: 0;
+    background-color: #E6EDEF;
+    border-radius: 15px;
+    padding: 4px;
+}

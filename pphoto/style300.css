@@ -1,0 +1,39 @@
+body {
+	background-image: url("https://i.imgur.com/ZQB5Npm.jpg");
+    background-repeat: no-repeat;
+}
+.box {
+    position: fixed;
+    min-width: 20vw;
+    height: 55%;
+    margin-left: 55%;
+    margin-top: 12%;
+    background-color: #E6EDEF;
+    border-radius: 15px;
+    padding: 5px;
+}
+.view {
+    position: fixed;
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+}
+.back {
+    position: fixed;
+    min-width: 6vw;
+    min-height: 3vw;
+    margin-left: 3%;
+    margin-top: 0;
+    background-color: #E6EDEF;
+    border-radius: 15px;
+    padding: 4px;
+}
+.footer {
+    position: fixed;
+    height: 10%;
+    width: 97%;
+    overflow: hidden;
+    bottom: 0;    
+}
